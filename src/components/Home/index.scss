@@ -1,0 +1,123 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &::before {
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: 15px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      width: 32px;
+    }
+  }
+}
+
+h2 {
+  color: #8d8d8d;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+}
+
+.flat-button {
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #ffd700;
+  margin-top: 25px;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+
+  &:hover {
+    background: #ffd700;
+    color: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+/* prettier-ignore */
+.phocia {
+  transform: translateX(1000px);
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  z-index: 10;
+  animation: fadeIn 1s 1.8s backwards;
+
+  &:hover {
+    opacity: 0;
+  }
+ 
+}
+
+.phocia2 {
+  transform: translateX(1020px) translateY(-63px);
+  position: absolute;
+  height: 1000px;
+  width: 950px;
+  animation: fadeIn 1s 2.5s backwards;
+  z-index: 5;
+  opacity: 1;
+ 
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    opacity: 0;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    position: relative;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+  }}
