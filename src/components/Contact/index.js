@@ -5,7 +5,6 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import 'dotenv/config'
 
 const Contact = () => {
   const form = useRef()
