@@ -54,8 +54,8 @@ const Home = () => {
     <>
       <div className="home-page">
         <div className="photos">
-        <img className='phocia' src={meISCC}></img>
-        <img className="phocia2" src={me}/>
+        <img className='phocia' src={meISCC} alt="norMe"></img>
+        <img className="phocia2" src={me} alt="me"/>
         </div>
         <div className="text-zone">
           <h1>
