@@ -6,7 +6,6 @@ import {
   faHome,
   faUser,
   faEnvelope,
-  faFilePdf,
 } from '@fortawesome/free-solid-svg-icons'
 import { FaGithub, FaFacebook, FaFilePdf } from 'react-icons/fa'
 import myPDF from '../../assets/pdf/cv22.pdf'
