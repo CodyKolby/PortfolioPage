@@ -4,7 +4,6 @@ import {
   FaCss3Alt,
   FaJsSquare,
   FaReact,
-  FaFacebook,
 } from 'react-icons/fa'
 import './index.scss'
 import Loader from 'react-loaders'
